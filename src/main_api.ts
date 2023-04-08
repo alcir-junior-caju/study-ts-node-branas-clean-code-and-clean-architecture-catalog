@@ -11,4 +11,4 @@ const getProducts = new GetProducts(productRepository);
 const getProduct = new GetProduct(productRepository);
 const httpServer = new ExpressAdapter();
 new HttpController(httpServer, getProducts, getProduct);
-httpServer.listen(3013);
+httpServer.listen(3012);
